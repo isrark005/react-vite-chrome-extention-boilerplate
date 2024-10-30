@@ -1,4 +1,4 @@
-# React Chrome Extension Template
+# React + Vite Chrome Extension Template
 
 This is a template for creating a Chrome extension using React and [Vite](https://vitejs.dev/) with TypeScript.
 
@@ -15,8 +15,8 @@ Make sure you have [Node.js](https://nodejs.org/) (version 18+ or 20+) installed
 
     ```sh
     # To clone
-    git clone https://github.com/5tigerjelly/chrome-extension-react-template
-    cd chrome-extension-react-template
+    git clone https://github.com/isrark005/react-vite-chrome-extention-boilerplate.git
+    cd react-vite-chrome-extention-boilerplate
     ```
 
 2. Install the dependencies:
@@ -25,7 +25,7 @@ Make sure you have [Node.js](https://nodejs.org/) (version 18+ or 20+) installed
     npm install
     ```
 
-## 🏗️ Development
+## Development
 
 To start the development server:
 
@@ -35,7 +35,7 @@ npm run dev
 
 This will start the Vite development server and open your default browser.
 
-## 📦 Build 
+## Build 
 
 To create a production build:
 
@@ -43,9 +43,7 @@ To create a production build:
 npm run build
 ```
 
-This will generate the build files in the `build` directory.
-
-## 📂 Load Extension in Chrome
+## Load Extension in Chrome
 
 1. Open Chrome and navigate to `chrome://extensions/`.
 2. Enable "Developer mode" using the toggle switch in the top right corner.
@@ -53,14 +51,9 @@ This will generate the build files in the `build` directory.
 
 Your React app should now be loaded as a Chrome extension!
 
-## 🗂️ Project Structure
+## Extra Information
+- You can keep all the additional files like background.js into public directory 
 
-- `public/`: Contains static files and the `manifest.json`.
-- `src/`: Contains the React app source code.
-- `vite.config.ts`: Vite configuration file.
-- `tsconfig.json`: TypeScript configuration file.
-- `package.json`: Contains the project dependencies and scripts.
+## Credit
+This template was initially made by [5tigerjelly](https://github.com/5tigerjelly/chrome-extension-react-template).
 
-## License
-
-This project is licensed under the MIT License.
