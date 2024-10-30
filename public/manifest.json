@@ -1,16 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "PokeMe",
+  "name": "React + Vite Chrome extention",
   "version": "1.0.0",
-  "description": "A Chrome extension that sends reminder notifications for saved content.",
+  "description": "This is boilerplate for Vite React Chrome extention.",
   "action": {
     "default_popup": "index.html"
   },
-  "permissions": [
-    "notifications",     
-    "storage",          
-    "alarms"             
-  ],
   "background": {
     "service_worker": "background.js" 
   },
